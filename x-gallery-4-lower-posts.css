@@ -1,0 +1,15 @@
+.gallery_4_lower_posts .title{
+	padding:10px;
+	font-size:1.3em;
+	font-weight:bold;
+	background-color:#eaeaea;
+}
+
+.gallery_4_lower_posts .item_wrapper{
+	background-color:#ffffff;
+	padding:10px 0;
+}
+
+.gallery_4_lower_posts .item_wrapper .subject{
+	padding:3px 10px;
+}
