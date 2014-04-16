@@ -1,5 +1,7 @@
 <?xml version="1.0"?>
 <config>
+	<id>x-gallery-4-lower-posts</id>
+	<type>widget</type>
 	<category>
 		<main>Post</main>
 		<sub>Latest</sub>
@@ -14,11 +16,11 @@
 	<homepage>philgo.net</homepage>
 	<demo>http://philgo.net</demo>
 	<short>
-		<en>Displays latest posts.</en>
+		<en>display forum subject/titles with link</en>
 		<ko>최근글을 표시합니다.</ko>
 	</short>
 	<detail>
-		<en>With options, it displays in many different ways.</en>
+		<en>Display latest post with Large Thumbnail, category style</en>
 		<ko>
 		
 			옵션 설정에 따라서 여러가지 형태로 최근글을 표시합니다.
