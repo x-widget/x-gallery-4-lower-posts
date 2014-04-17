@@ -12,10 +12,14 @@
 	$lower_list;
 	if( $widget_config['title'] ) $post_title = $widget_config['title'];
 	else $post_title = 'No Title';
+	
+	$lower_posts_table = $widget_config['forum1'];
+	
 ?>
 <div class='gallery_4_lower_posts'>
 	<div class="title">				
-		<a href='<?=G5_BBS_URL?>/board.php?bo_table=<?=$bo_table?>'><?=$post_title?></a>				
+		<? if ( $lower_posts_table ) echo "<a href='".G5_BBS_URL."/board.php?bo_table=$lower_posts_table'>$post_title</a>";
+		else echo $post_title; ?>
 	</div>	
     <div class='item_wrapper'>
 	
