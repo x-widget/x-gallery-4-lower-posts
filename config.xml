@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <config>
-	<id>x-gallery-4-lower-posts</id>
+	<id>widget x-gallery-4-lower-posts</id>
 	<type>widget</type>
 	<category>
-		<main>Post</main>
-		<sub>Latest</sub>
+		<main>post</main>
+		<sub>latest</sub>
 	</category>
 	<name>
 		<en>Gallery 4 Lower Posts</en>
 		<ko>최근글</ko>
 	</name>
-	<version>0.1</version>
-	<author>x/theme</author>
-	<email>philgo.net</email>
-	<homepage>philgo.net</homepage>
+	<version>1.0</version>
+	<author>X-Team</author>
+	<email>philgohelp@gmail.com</email>
+	<homepage>http://www.philgo.net</homepage>
 	<demo>http://philgo.net</demo>
 	<short>
 		<en>display forum subject/titles with link</en>
