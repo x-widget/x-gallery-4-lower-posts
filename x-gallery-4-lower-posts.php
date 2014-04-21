@@ -1,19 +1,18 @@
 <?php
 	widget_css();
-	if( $widget_config['forum1'] ) {
-	
+	$_bo_table = $widget_config['forum1'];
+	if ( empty($_bo_table) ) $_bo_table = $widget_config['default_forum_id'];
 	$lower_list = g::posts(
 		array(
-			"bo_table"	=> $widget_config['forum1'],
+			"bo_table"	=> $_bo_table,
 			"limit"		=> $widget_config['no']
 			 )
 		);
-	}
-	$lower_list;
+	
 	if( $widget_config['title'] ) $post_title = $widget_config['title'];
 	else $post_title = 'No Title';
 	
-	$lower_posts_table = $widget_config['forum1'];
+	$lower_posts_table = $_bo_table;
 	
 ?>
 <div class='gallery_4_lower_posts'>
